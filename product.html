@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品紹介</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@800;900&display=swap" rel="stylesheet">
+    <link href="css/product-style.css" rel="stylesheet" media="screen">
+</head>
+
+
+
+
+<body id="top">
+    <header class="header phone">
+        <a href="index.html" class="inline-block">
+            <img src="img/index--header--logo.png" alt="ロゴ" class="header--logo">
+            <img src="img/index--header--tomataro.png" alt="トマ太郎" class="header--tomataro">
+        </a>
+        <div class="header--cart">
+            <img src="img/index--header--cart.png" alt="カート">
+            <span class="header--cart--p">
+                0
+            </span>
+        </div>
+        <!-- javascriptでカゴの中身を反映させる？ -->
+    </header>
+
+
+    <!-- ナビ -->
+    <nav class="nav--wrap phone">
+        <ul>
+            <div class="nav--red">
+                <li class="white nav--font">
+                    SHOP
+                </li>
+                <img src="img/index--nav--shop.png" alt="shop">
+            </div>
+            <a href="product.html" class="nav--green">
+                <li class="white nav--font">
+                    商品紹介
+                </li>
+                <img src="img/index--nav--introduce.png" alt="introduce">
+            </a>
+            <a href="recipe.html" class="nav--blue">
+                <li class="white nav--font">
+                    レシピ
+                </li>
+                <img src="img/index--nav--rexipe.png" alt="recipe">
+            </a>
+            <div class="nav--yellow">
+
+            </div>
+            <div class="ham" id="ham">
+                <li class="ham--menu--font appear">メニュー</li>
+                <div class="ham--wrap">
+                    <div class="ham--line-top"></div>
+                    <div class="ham--line-middle"></div>
+                    <div class="ham--line-bottom"></div>
+                </div>
+            </div>
+        </ul>
+        <div class="ham--menu--wrapper" id="ham--menu--wrapper">
+            <div class="ham--menu">
+                <ul class="ham--menu--flex">
+                    <a href="index.html">
+                        <li>　▶TOP PAGE</li>
+                    </a>
+                    <a href="">
+                        <li>　▶SHOP</li>
+                    </a>
+                    <a href="product.html">
+                        <li>　▶商品紹介</li>
+                    </a>
+                    <a href="secret.html">
+                        <li>　▶甘さのひみつ</li>
+                    </a>
+                    <a href="recipe.html">
+                        <li>　▶レシピ</li>
+                    </a>
+                    <a href="">
+                        <li>　▶ご利用ガイド</li>
+                    </a>
+                    <a href="qa.html">
+                        <li>　▶よくある質問</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>　▶お問い合わせ</li>
+                    </a>
+                    <a href="">
+                        <li>　▶プライバシー<br>　　ポリシー</li>
+                    </a>
+                    <a href="">
+                        <li>　▶特定商取引法<br>　　に基づく表記</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PCヘッダーナビ -->
+    <header class="header--pc pc">
+        <ul class="header--nav--flex">
+            <div class="header--flex">
+                <li>
+                    <a href="index.html" class="inline-block">
+                        <img src="img/index--header--tomataro.png" alt="トマ太郎" class="header--tomataro">
+                        <img src="img/pc/index--header--logo--pc.png" alt="ロゴ" class="header--logo">
+                    </a>
+                </li>
+                <li class="facebook">
+                    <img src="img/facebook.png" alt="フェイスブック">
+                </li>
+                <li class="instagram">
+                    <img src="img/instagram.png" alt="インスタグラム">
+                </li>
+            </div>
+
+            <nav>
+                <ul class="nav--flex--pc">
+                    <a href="" class="nav--font green">
+                        <li>
+                            <div class="nav--img--box">
+                                <img src="img/pc/index--nav--shop--pc.svg" alt="shop">
+                            </div>
+                            ショップ
+                        </li>
+                    </a>
+                    <a href="product.html" class="nav--font green">
+                        <li>
+                            <div class="nav--img--box">
+                                <img src="img/pc/index--nav--introduce--pc.svg" alt="introduce">
+                            </div>
+                            商品紹介
+                        </li>
+                    </a>
+                    <a href="recipe.html" class="nav--font green">
+                        <li>
+                            <div class="nav--img--box">
+                                <img src="img/pc/index--nav--rexipe--pc.svg" alt="recipe">
+                            </div>
+                            レシピ
+                        </li>
+                    </a>
+                    <a href="contact.html" class="nav--font2 green">
+                        <li>
+                            <div class="nav--img--box">
+                                <img src="img/pc/index--nav--qa--pc.svg" alt="recipe">
+                            </div>
+                            お問い合わせ
+                        </li>
+                    </a>
+                    <a href="recipe.html" class="nav--font2 green">
+                        <li>
+                            <div class="nav--img--box">
+                                <img src="img/pc/index--nav--i--pc.svg" alt="recipe">
+                            </div>
+                            ご利用ガイド
+                        </li>
+                    </a>
+                    <div class="header--cart">
+                        <img src="img/index--header--cart.png" alt="カート">
+                        <span class="header--cart--p">
+                            0
+                        </span>
+                    </div>
+                </ul>
+            </nav>
+        </ul>
+    </header>
+
+
+
+    <!-- メインビジュアル -->
+    <main>
+        <section>
+            <div class="main--image">
+                <img src="img/product/product--main.jpg" alt="メインビジュアル">
+                <h1 class="main--catchphrase white">
+                    商品紹介
+                </h1>
+            </div>
+        </section>
+
+        <!-- セレクトジャンプ -->
+        <section class="select">
+            <h2>
+                ▼タッチするとジャンプします▼
+            </h2>
+            <!--  一行目 -->
+            <div class="select--pc--flex">
+                <ul class="select--wrapper--1">
+                    <li><a href="#big-tomato" class="">
+                            <img src="img/product/product--select--tomato.png" alt="大玉トマト">
+                            <h3>大玉トマト</h3>
+                        </a></li>
+                    <li>
+                        <a href="#mini-tomato" class="">
+                            <img src="img/product/product--select--mini.png" alt="ミニトマト">
+                            <h3>ミニトマト</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#tomato-juice" class="select--spacing">
+                            <img src="img/product/product--drink.png" alt="トマトジュース">
+                            <h3>トマトジュース</h3>
+                        </a>
+                    </li>
+                    <li><a href="#dry-tomato" class="select--spacing product--drytomato--img margin-left">
+                            <img src="img/product/product--select--dry.png">
+                            <h3>ドライトマト</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#kechappu" class="product--kechappu--img">
+                            <img src="img/product/product--select--kechappu.png" alt="ケチャップ">
+                            <h3>ケチャップ</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 商品紹介 -->
+        <!-- 大玉トマト -->
+        <section class="product" id="big-tomato">
+            <div class="product--wrapper">
+                <h2><img src="img/product/big-tomato-title.svg" alt="大玉トマトタイトル" class="product--title"><br>
+                    <img src="img/product/product--big--tomato.jpg" alt="大玉トマト写真" class="product--image">
+                </h2>
+                <h4>
+                    <div class="product--selling-period--wrapper">
+                        <span class="product--selling-period">販売期間</span>
+                        <span>４月～９月
+                        </span>
+                    </div>
+                </h4>
+                <h3 class="product--position--h3--1">
+                    <span class="product--emphasis--big">
+                        愛情
+                    </span>
+                    いっぱいに育てた<br>
+                    <span class="product--emphasis--small">甘くてジューシー</span>
+                    なトマト
+                </h3>
+                <p class="product--position--p--1">
+                    当農園で育てているトマトは<span class="red">甘く，<br>
+                        味も濃い</span>ので，<span class="green">サラダや丸かじりに<br>
+                        ピッタリ</span>。もちろん，煮ても焼いても<br>
+                    おいしいよ。料理にもおすすめ。</p>
+                <h4>
+                    <div class="product--size--wrapper">
+                        <span class="product--size--title">
+                            サイズ
+                        </span>
+                        <span class="product--size--box">
+                            1Kg
+                        </span>
+                        <span class="product--size--box">
+                            2Kg
+                        </span>
+                        <span class="product--size--box">
+                            3Kg
+                        </span>
+                    </div>
+                </h4>
+                <div>
+                    <span class="product--buy--button">
+                        購入ページへ
+                        <span class="product--buy--radius">
+                            <img src="img/product/product--arrow.png" alt="⇒">
+                        </span>
+                    </span>
+                </div>
+            </div>
+
+            <!-- ミニトマト -->
+            <div class="product--wrapper" id="mini-tomato">
+                <div class="product--title--wrapper">
+                    <h2><img src="img/product/mini-tomato-title.svg" alt="大玉トマトタイトル" class="product--title"><br>
+                        <img src="img/product/product--mini--tomato.jpg" alt="ミニトマト写真" class="product--image--mini">
+                    </h2>
+                    <h4>
+                        <div class="product--selling-period--wrapper">
+                            <span class="product--selling-period">販売期間</span>
+                            <span>４月～９月
+                            </span>
+                        </div>
+                    </h4>
+                    <h3 class="product--position--h3--2">
+                        小さい粒に<span class="product--emphasis--big">甘さ</span>
+                        凝縮<br>お弁当にもおやつにも
+                    </h3>
+                    <p class="product--position--p--1">
+                        小さい粒に甘さがしっかり凝縮して<br>
+                        います。<span class="red">果実のような甘さ</span>にほんのり<br>
+                        酸味が効いて何個でも食べられます。<br>
+                        食後のデザートにいかがでしょうか？
+                    </p>
+                    <h4>
+                        <div class="product--size--wrapper">
+                            <span class="product--size--title">
+                                サイズ
+                            </span>
+                            <span class="product--size--box">
+                                500g
+                            </span>
+                            <span class="product--size--box">
+                                1Kg
+                            </span>
+                            <span class="product--size--box">
+                                2Kg
+                            </span>
+                        </div>
+                    </h4>
+                    <div>
+                        <span class="product--buy--button">
+                            購入ページへ
+                            <span class="product--buy--radius">
+                                <img src="img/product/product--arrow.png" width="34" height="18" alt="⇒">
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- トマトジュース -->
+            <div class="product--wrapper" id="tomato-juice">
+                <div class="product--title--wrapper-2">
+                    <h2><img src="img/product/juice-title.svg" alt="トマトジュースタイトル" class="product--title-2"><br>
+                        <img src="img/product/product--drink.png" alt="ミニトマト写真" class="product--image">
+                    </h2>
+                </div>
+                <h4>
+                    <div class="product--selling-period--wrapper">
+                        <span class="product--selling-period">販売期間</span>
+                        <span>４月～10月
+                        </span>
+                    </div>
+                </h4>
+                <h3 class="product--position--h3--1">
+                    スッキリとした甘さが<br>
+                    　　　<span class="product--emphasis--big-3">クセ</span>になる
+                </h3>
+                <p class="product--position--p--1">
+                    Toma太郎農園で採れたトマトだけを<br>
+                    使った<span class="green">添加物不使用</span>のトマトジュース<br>
+                    です。<span class="red">トマト</span>を<span class="red">100％</span>使っているので、<br>
+                    素材本来の味をお楽しみいただけます。
+                </p>
+                <h4>
+                    <div class="product--size--wrapper">
+                        <span class="product--size--title">
+                            サイズ
+                        </span>
+                        <span class="product--size--box">
+                            3L
+                        </span>
+                        <span class="product--size--box">
+                            6L
+                        </span>
+                        <span class="product--size--box">
+                            12L
+                        </span>
+                    </div>
+                </h4>
+                <div>
+                    <span class="product--buy--button">
+                        購入ページへ
+                        <span class="product--buy--radius">
+                            <img src="img/product/product--arrow.png" width="34" height="18" alt="⇒">
+                        </span>
+                    </span>
+                </div>
+            </div>
+
+            <!-- ドライトマト -->
+            <div class="product--wrapper" id="dry-tomato">
+                <div class="product--title--wrapper-2">
+                    <h2><img src="img/product/dry-title.svg" alt="ドライトマトタイトル" class="product--title-2"><br>
+                        <img src="img/product/product--dry.jpg" alt="ドライトマト写真" class="product--image">
+                    </h2>
+                </div>
+                <h4>
+                    <div class="product--selling-period--wrapper">
+                        <span class="product--selling-period">販売期間</span>
+                        <span>6月～12月
+                        </span>
+                    </div>
+                </h4>
+                <h3 class="product--position--h3--3">
+                    甘さと酸味が絶妙<br>
+                    <span class="product--emphasis--big-3">体に優しい</span>おやつです
+                </h3>
+                <p class="product--position--p--1">
+                    Toma太郎農園で採れたトマトを天日<br>
+                    干しして作りました。うまみだけでなく<br>
+                    <span class="red">リコピン</span>や<span class="red">ビタミンC</span>が凝縮されてます。<br>
+                    体にとっても優しいおやつです。
+                </p>
+                <h4>
+                    <div class="product--size--wrapper">
+                        <span class="product--size--title">
+                            サイズ
+                        </span>
+                        <span class="product--size--box">
+                            300g
+                        </span>
+                        <span class="product--size--box">
+                            500g
+                        </span>
+                        <span class="product--size--box">
+                            1Kg
+                        </span>
+                    </div>
+                </h4>
+                <div>
+                    <span class="product--buy--button">
+                        購入ページへ
+                        <span class="product--buy--radius">
+                            <img src="img/product/product--arrow.png" alt="⇒">
+                        </span>
+                    </span>
+                </div>
+            </div>
+
+            <!-- ケチャップ -->
+            <div class="product--wrapper" id="kechappu">
+                <div class="product--title--wrapper">
+                    <h2><img src="img/product/ketchup-title.svg" alt="ケチャップタイトル" class="product--title"><br>
+                        <img src="img/product/product--ketchup.png" alt="ケチャップ写真" class="product--image">
+                    </h2>
+                </div>
+                <h4>
+                    <div class="product--selling-period--wrapper-2">
+                        <span class="product--selling-period">販売期間</span>
+                        <span>1年中いつでも
+                        </span>
+                    </div>
+                </h4>
+                <h3 class="product--position--h3--2">
+                    食卓がプロの味に！料理に<br>
+                    深みが出る<span class="product--emphasis--big-4">濃厚</span>な味わい
+                </h3>
+                <p class="product--position--p--1">
+                    <span class="red">完熟ギリギリまで育てたトマト</span>を丁寧に<br>
+                    煮込んで作りあげたケチャップです。<br>
+                    トマト１００％なので、濃厚な味を<br>
+                    お楽しみいただけます。煮込み料理や<br>
+                    パスタにも何でもあいます。
+                </p>
+                <h4>
+                    <div class="product--size--wrapper">
+                        <span class="product--size--title">
+                            サイズ
+                        </span>
+                        <span class="product--size--box">
+                            300g
+                        </span>
+                        <span class="product--size--box">
+                            500g
+                        </span>
+                        <span class="product--size--box">
+                            1Kg
+                        </span>
+                    </div>
+                </h4>
+                <div>
+                    <span class="product--buy--button">
+                        購入ページへ
+                        <span class="product--buy--radius">
+                            <img src="img/product/product--arrow.png" width="34" height="18" alt="⇒">
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <nav class="footer--wrapper">
+            <ul class="footer--box-1">
+                <li><a href="index.html">　▶TOP PAGE</a></li>
+                <li><a href="">　▶SHOP</a></li>
+                <li><a href="product.html">　▶商品紹介</a></li>
+                <li><a href="secret.html">　▶甘さのひみつ</a></li>
+                <li><a href="recipe.html">　▶レシピ</a></li>
+                <li><a href="">　▶ご利用ガイド</a></li>
+                <li><a href="qa.html">　▶よくある質問</a></li>
+                <li><a href="contact.html">　▶お問い合わせ</a></li>
+                <li><a href="">　▶プライバシー<br>　　ポリシー</a></li>
+                <li><a href="">　▶特定商取引法<br>　　に基づく表記</a></li>
+            </ul>
+        </nav>
+
+        <ul class="footer--box-2">
+            <li class="facebook phone">
+                <img src="img/facebook.png" alt="フェイスブック">
+            </li>
+            <li class="instagram phone">
+                <img src="img/instagram.png" alt="インスタグラム">
+            </li>
+            <li class="footer--logo">
+                <a href="index.html">
+                    <img src="img/index--footer--logo.png" width="180" alt="ロゴ">
+                </a>
+            </li>
+        </ul>
+        <small>
+            Copyright (c)TOMATaro all rights reserved
+        </small>
+        <div class="arrow appear" id="arrow">
+            <a href="#top"><img src="img/all--arrow.png"><br>
+                <span class="arrow--font red">page</span><br>
+                <span class="arrow--font red">top</span>
+            </a>
+        </div>
+    </footer>
+    <script src="js/product.js"></script>
+</body>
+
+</html>

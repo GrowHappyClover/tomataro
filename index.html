@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TomaTaro</title>
+    <meta name="keywords" content="トマト,ケチャップ,ドライ,甘い,おいしい,健康,贈答,オンライン,ショッピング,農園,果物">
+    <meta name="description" content="Toma太郎農園では，甘くて濃厚なトマトを生産しています。トマトにミニトマト，贈答用に
+    おススメのドライトマトやトマトジュース，ケチャップをオンラインで販売しています。ケチャップもジュースも完熟トマトを100％使用
+    しているため，濃厚で栄養もたっぷりです。">
+    <!--  <link href="base.style.css" rel="stylesheet" meida="all"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@800;900&display=swap" rel="stylesheet">
+    <link href="css/index-style.css" rel="stylesheet" meida="all">
+</head>
+
+
+
+<!-- ヘッダー -->
+
+<body id="top">
+    <header class="header phone">
+        <a href="index.html" class="inline-block">
+            <img src="img/index--header--logo.png" alt="ロゴ" class="header--logo">
+            <img src="img/index--header--tomataro.png" alt="トマ太郎" class="header--tomataro">
+        </a>
+        <div class="header--cart">
+            <img src="img/index--header--cart.png" alt="カート">
+            <span class="header--cart--p">
+                0
+            </span>
+        </div>
+        <!-- javascriptでカゴの中身を反映させる？ -->
+    </header>
+
+
+    <!-- ナビ -->
+    <nav class="nav--wrap phone">
+        <ul>
+            <div class="nav--red">
+                <li class="white nav--font">
+                    SHOP
+                </li>
+                <img src="img/index--nav--shop.png" alt="shop">
+            </div>
+            <a href="product.html" class="nav--green">
+                <li class="white nav--font">
+                    商品紹介
+                </li>
+                <img src="img/index--nav--introduce.png" alt="introduce">
+            </a>
+            <a href="recipe.html" class="nav--blue">
+                <li class="white nav--font">
+                    レシピ
+                </li>
+                <img src="img/index--nav--rexipe.png" alt="recipe">
+            </a>
+            <div class="nav--yellow">
+
+            </div>
+            <div class="ham" id="ham">
+                <li class="ham--menu--font appear">メニュー</li>
+                <div class="ham--wrap">
+                    <div class="ham--line-top"></div>
+                    <div class="ham--line-middle"></div>
+                    <div class="ham--line-bottom"></div>
+                </div>
+            </div>
+        </ul>
+        <div class="ham--menu--wrapper" id="ham--menu--wrapper">
+            <div class="ham--menu">
+                <ul class="ham--menu--flex">
+                    <a href="index.html">
+                        <li>　▶TOP PAGE</li>
+                    </a>
+                    <a href="">
+                        <li>　▶SHOP</li>
+                    </a>
+                    <a href="product.html">
+                        <li>　▶商品紹介</li>
+                    </a>
+                    <a href="secret.html">
+                        <li>　▶甘さのひみつ</li>
+                    </a>
+                    <a href="recipe.html">
+                        <li>　▶レシピ</li>
+                    </a>
+                    <a href="">
+                        <li>　▶ご利用ガイド</li>
+                    </a>
+                    <a href="qa.html">
+                        <li>　▶よくある質問</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>　▶お問い合わせ</li>
+                    </a>
+                    <a href="">
+                        <li>　▶プライバシー<br>　　ポリシー</li>
+                    </a>
+                    <a href="">
+                        <li>　▶特定商取引法<br>　　に基づく表記</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PCヘッダーナビ -->
+    <header class="header--pc pc">
+        <ul class="header--nav--flex">
+            <div class="header--flex">
+                <li>
+                    <a href="index.html" class="inline-block">
+                        <img src="img/index--header--tomataro.png" alt="トマ太郎" class="header--tomataro">
+                        <img src="img/pc/index--header--logo--pc.png" alt="ロゴ" class="header--logo">
+                    </a>
+                </li>
+                <li class="facebook">
+                    <img src="img/facebook.png" alt="フェイスブック">
+                </li>
+                <li class="instagram">
+                    <img src="img/instagram.png" alt="インスタグラム">
+                </li>
+            </div>
+
+            <nav>
+                <ul class="nav--flex--pc">
+                    <a href="" class="nav--font green">
+                        <li>
+                            <div class="nav--img--box">
+                                <img src="img/pc/index--nav--shop--pc.svg" alt="shop">
+                            </div>
+                            ショップ
+                        </li>
+                    </a>
+                    <a href="product.html" class="nav--font green">
+                        <li>
+                            <div class="nav--img--box">
+                                <img src="img/pc/index--nav--introduce--pc.svg" alt="introduce">
+                            </div>
+                            商品紹介
+                        </li>
+                    </a>
+                    <a href="recipe.html" class="nav--font green">
+                        <li>
+                            <div class="nav--img--box">
+                                <img src="img/pc/index--nav--rexipe--pc.svg" alt="recipe">
+                            </div>
+                            レシピ
+                        </li>
+                    </a>
+                    <a href="contact.html" class="nav--font2 green">
+                        <li>
+                            <div class="nav--img--box">
+                                <img src="img/pc/index--nav--qa--pc.svg" alt="recipe">
+                            </div>
+                            お問い合わせ
+                        </li>
+                    </a>
+                    <a href="recipe.html" class="nav--font2 green">
+                        <li>
+                            <div class="nav--img--box">
+                                <img src="img/pc/index--nav--i--pc.svg" alt="recipe">
+                            </div>
+                            ご利用ガイド
+                        </li>
+                    </a>
+                    <div class="header--cart">
+                        <img src="img/index--header--cart.png" alt="カート">
+                        <span class="header--cart--p">
+                            0
+                        </span>
+                    </div>
+                </ul>
+            </nav>
+        </ul>
+    </header>
+
+
+
+
+    <!-- メイン -->
+    <main>
+        <section>
+            <div class="main--image">
+                <img src="img/index--main--image.jpg" alt="メインビジュアル">
+                <h1 class="main--catchphrase white">
+                    甘さ満点<br><span class="main--catchphrase--margin">幸せトマト</span>
+                </h1>
+                <p>↓Scroll</p>
+            </div>
+        </section>
+
+
+
+
+        <!-- 商品紹介 -->
+        <section class="product--wrapper">
+            <div class="product--title">
+                <h2 class="yellow">
+                    商品紹介
+                </h2>
+            </div>
+
+            <ul class="product--flex">
+                <li class="product--wrap">
+                    <h3 class="product--h3 red product--top">
+                        <span class="green">＼</span>
+                        大玉トマト
+                        <span class="green">／</span>
+                    </h3>
+                    <div class="product--image">
+                        <img src="img/index--product--tomato.jpg" alt="大玉トマト">
+                        <div class="product--box white">
+                            <p>
+                                <span class="product--box--strong red">
+                                    愛情
+                                </span>
+                                いっぱいに育てた<br>甘くて
+                                <span class="space-shrink">
+                                    ジューシー
+                                </span>
+                                なトマト
+                            </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="product--wrap">
+                    <h3 class="product--h3 red">
+                        <span class="green">＼</span>
+                        ミニトマト
+                        <span class="green">／</span>
+                    </h3>
+                    <div class="product--image">
+                        <img src="img/index--product--minitomato.jpg" alt="ミニトマト">
+                        <div class="product--box white product--box-Adjustment">
+                            <p>
+                                小さい粒に
+                                <span class="product--box--strong red">
+                                    甘さ
+                                </span>
+                                凝縮<br>お弁当にもおやつにも
+                            </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="product--wrap">
+                    <h3 class="product--h3 red">
+                        <span class="green">＼</span>
+                        トマトジュース
+                        <span class="green">／</span>
+                    </h3>
+                    <div class="product--image">
+                        <img src="img/index--product--juce .jpg" alt="トマトジュース">
+                        <div class="product--box white">
+                            <p>
+                                甘さと酸味が
+                                <span class="product--box--strong red">
+                                    クセ
+                                </span>
+                                になる<br>飲みすぎに注意
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <a href="product.html" class="product--button-blue white margin-top100">
+                ＜ 商品一覧
+            </a>
+        </section>
+
+
+
+
+
+
+        <!--  トマトの秘密 -->
+        <section>
+            <h2 class="none">
+                トマトの秘密
+            </h2>
+            <div class="secret--wrapper">
+                <img src="img/index--secret.png" alt="甘さのヒミツ">
+                <div class="secret--sparta" id="secret-anima">
+                    スパルタ？
+                </div>
+                <div class="secret--audition" id="secret-anima2">
+                    オーディション？
+                </div>
+            </div>
+
+            <a href="secret.html" class="white secret--button--font">
+                <img src="img/secret--lens.png" alt="虫眼鏡">
+                ＜ヒミツをのぞく
+            </a>
+
+
+        </section>
+
+
+
+
+        <!-- 新着情報 -->
+
+        <section class="news--wraper">
+            <h2 class="news--block white">新着情報</h2>
+
+            <div class="news--line"></div>
+            <div class="news--individual--wraper">
+                <div>
+                    <p class="news--date--font">2020.11.30</p>
+                </div>
+                <div class="news--position">
+                    <ul>
+                        <li>
+                            <img src="img/news.svg">
+                        </li>
+                        <li class="news--article--content">
+                            コーディングを始めました。
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="news--line"></div>
+            <div class="news--individual--wraper">
+                <div>
+                    <p class="news--date--font">2020.11.18</p>
+                </div>
+                <div class="news--position">
+                    <ul>
+                        <li>
+                            <img src="img/news.svg">
+                        </li>
+                        <li class="news--article--content">
+                            デザインカンプを作り始めました。
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="news--line"></div>
+            <div class="news--individual--wraper">
+                <div>
+                    <p class="news--date--font">2020.11.18</p>
+                </div>
+                <div class="news--position">
+                    <ul>
+                        <li>
+                            <img src="img/news.svg">
+                        </li>
+                        <li class="news--article--content">
+                            ロゴを作りました。
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <!--  お問い合わせ -->
+        <section class="inquiry">
+            <h2 class="inquiry--title">
+                <img src="img/inquiry--phone.svg" alt="電話">
+                <span class="inquiry">お</span>
+                <span class="inquiry">問</span>
+                <span class="inquiry">い</span>
+                <span class="inquiry">合</span>
+                <span class="inquiry">わ</span>
+                <span class="inquiry">せ</span>
+            </h2>
+            <div class="inquiry--wrapper">
+                <h3>
+                    <dl class="inquiry--phone">
+                        <dt>
+                            <img src="img/inquiry--phone2.png" alt=" 電話番号">
+                        </dt>
+                        <div class="inquiry--dd">
+                            <dd class="inquiry--phonenumber">
+                                088-☓☓☓-0000
+                            </dd>
+                            <dd>
+                                <p class="inquiry--phone--p">
+                                    ※<span class="red">日中</span>
+                                    は農作業のため出られない<br>場合が多いです。
+                                    <span class="red">留守番電話</span>
+                                    に<br>ご用件をお願いします。
+                                </p>
+                            </dd>
+                        </div>
+                    </dl>
+                </h3>
+
+                <h3>
+                    <dl class="flex">
+                        <dt class="inquiry--phone">
+                            <img src="img/inquily--mail.png" alt=" メールアドレス">
+                        </dt>
+                        <dd class="inquiry--mail">
+                            Toma@taro.com
+                        </dd>
+                    </dl>
+                </h3>
+                <a href="qa.html" class="inquily--button--blue white">
+                    お問い合わせ<br>
+                    フォームはこちら
+                </a>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <nav class="footer--wrapper">
+            <ul class="footer--box-1">
+                <li><a href="index.html">　▶TOP PAGE</a></li>
+                <li><a href="">　▶SHOP</a></li>
+                <li><a href="product.html">　▶商品紹介</a></li>
+                <li><a href="secret.html">　▶甘さのひみつ</a></li>
+                <li><a href="recipe.html">　▶レシピ</a></li>
+                <li><a href="">　▶ご利用ガイド</a></li>
+                <li><a href="qa.html">　▶よくある質問</a></li>
+                <li><a href="contact.html">　▶お問い合わせ</a></li>
+                <li><a href="">　▶プライバシー<br>　　ポリシー</a></li>
+                <li><a href="">　▶特定商取引法<br>　　に基づく表記</a></li>
+            </ul>
+        </nav>
+
+        <ul class="footer--box-2">
+            <li class="facebook phone">
+                <img src="img/facebook.png" alt="フェイスブック">
+            </li>
+            <li class="instagram phone">
+                <img src="img/instagram.png" alt="インスタグラム">
+            </li>
+            <li class="footer--logo">
+                <a href="index.html">
+                    <img src="img/index--footer--logo.png" width="180" alt="ロゴ">
+                </a>
+            </li>
+        </ul>
+        <small>
+            Copyright (c)TOMATaro all rights reserved
+        </small>
+        <div class="arrow appear" id="arrow">
+            <a href="#top"><img src="img/all--arrow.png"><br>
+                <span class="arrow--font red">page</span><br>
+                <span class="arrow--font red">top</span>
+            </a>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
